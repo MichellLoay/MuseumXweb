@@ -1,0 +1,202 @@
+html {
+  height: 100%;
+  width: 100%;
+	background-color: #f79482;
+	scroll-behavior:smooth;/*scorrimento estheticamente bello*/
+}
+.cabeza{
+	text-align: center;
+	background-color: #212121;
+	color: #ff9e8b;
+	padding: 50px 0px 300px 0px; /*top, right, bottom, left */
+}
+
+h3{
+	/*font-family: 'Berkshire Swash', cursive;*/
+	font-family: 'Philosopher', sans-serif;
+}
+h2{
+	/*font-family: 'Berkshire Swash', cursive;*/
+	font-family: 'Philosopher', sans-serif;
+	font-size:60px;
+	color: black;
+	text-align: center;
+	padding: 15px 0px 25px 0px;
+	scroll-behavior: smooth;
+}
+h1{
+	/*font-family: 'Berkshire Swash', cursive;*/
+	font-family: 'Philosopher', sans-serif;
+	font-size: 90px;
+	padding-top:50px;
+}
+
+/*////////////////////////////imagine menu background*/
+#fotolugar{
+	position: relative;
+	padding: 5% 0% 0% 0%;
+	justify-content: center;
+	border-radius: 50%;
+	max-width: 90%;
+}
+/*///////////////////////////////////////CURVA*/
+.curve{
+    position: relative;
+  
+    left: 0;
+    width: 100%;
+    /*overflow: hidden;*/
+    line-height: 0;
+    transform: rotate(180deg);
+		text-align: center;
+	justify-content: center;
+}
+
+.curve svg {
+    position: relative;
+    display: flex;
+    width: calc(100% + 1.3px);
+    height: 346px;
+}
+
+.curve .shape-fill {
+    fill: #212121;
+}
+/*/////////////////////////////////////////bottoni*/
+#bottoni{
+	display: flex;
+  justify-content: space-evenly;
+	
+}
+button {
+  padding: 14px 56px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #ff9e8b;
+  background-color: #212121;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #ff9e8b;
+  box-shadow: 0px 15px 20px  #cb7f72;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+		
+	
+}
+main{
+/*///////////////////////////////////background-color: #f79482;*/
+	padding-bottom: 50px;
+}
+/*/////////////////////////////////////cards */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+	flex-wrap: wrap;
+}
+
+.card {
+	flex-wrap: wrap;
+	text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 2%;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  transition: .2s all;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  font-size: 33px;
+  padding-top: 180px;
+	
+}
+
+.card > span {
+  display: block;
+  margin: auto;
+  max-width: 400px;
+}
+
+.container:hover .card {
+  filter: blur(3px);
+  opacity: .5;
+  transform: scale(.98);
+  box-shadow: none;
+	
+}
+
+.container:hover .card:hover {
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+  background: #212121;
+  color: white;
+}
+/*////////////////////presentacion txt*/
+.presentazione{
+	display: flex-end;
+	background-image:;
+	padding: 0% 0% 20% 0%;
+}
+
+
+#logo{
+	clear: left;
+	float: left;
+	padding-left: 60px;
+	height:50%;
+}
+p{
+	padding: 0px 120px 20px 120px;
+	font-size: 20px;
+}
+.fine{
+	background-color: #212121;
+	color: #fffbfa ;
+	padding:32px;
+}
+/*botones del footer*/
+
+.img {
+  width: 4.8em;
+  height: 4.8em;
+  background: white;
+  border-radius: 15px;
+  margin: auto;
+}
+.share {
+	padding-bottom: 3em;
+  margin-top: 4em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card a {
+  color: white;
+  transition: .4s ease-in-out;
+}
+
+#bo{
+	display: flex;
+	justify-content: center;
+	color: transparent;/*per la riga che apariva sotto i bottoni del footer*/
+}

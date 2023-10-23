@@ -1,0 +1,172 @@
+html{
+  width: 100%;
+  height: auto;
+	background-color: #7cf87e;
+	scroll-behavior:smooth;
+}
+
+/*/////////////////////////////////////////////////////*/
+nav{
+	position: fixed;
+	background-color: #7cf87e;
+	padding: 8px 20px 8px 0px;
+	width: 100%;
+}
+
+.artista{
+	float: right;
+	padding: 37px;
+}
+
+button {
+  transition: all 0.5s;
+  font-size: 17px;
+  padding: 2ch 4ch;
+  background-color: white;
+  color: #7cf87e;
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 2px 2px 0px hsl(96, 69%, 85%),
+    4px 4px 0px hsl(113, 81%, 73%),
+    6px 6px 0px hsl(87, 67%, 65%),
+    8px 8px 0px hsl(81, 52%, 60%),
+    10px 10px 0px hsl(121, 54%, 60%),
+    12px 12px 0px hsl(99, 42%, 50%),
+    14px 14px 0px hsl(116, 64%, 44%),
+    16px 16px 0px hsl(113, 61%, 37%),
+    18px 18px 0px hsl(107, 100%, 30%);
+}
+
+button:hover {
+  background-color: hsl(116, 41%, 41%);
+  color: #fff;
+  box-shadow: none;
+}
+/*//////////////////////////////////////////////////*/
+header{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background-image: url("quintomiriam.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+ h1{
+	 padding: 20%;
+	 max-width: 100%;
+	 color: white;
+	 font-family: 'Josefin Sans', sans-serif;
+	 font-size: 11em;
+	 text-align:center;
+}
+
+/*///////////////////////////////////////BIO////////////////////*/
+
+.presentazione{
+	background-color: white;
+	padding:20%;
+}
+
+#about{
+	color: #7cf87e;
+	padding: 10px;
+}
+p{
+	font-size:30px;
+	padding: 10px 60px;
+	flex-wrap:wrap;
+}
+
+#FOTOPERFIL{
+	float: left;
+	margin: 10px 40px;
+}
+/*//////////////////////////////////triangle////////////////////*/
+
+.triangle {
+		flex-wrap:wrap;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.triangle svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 307px;
+}
+
+.triangle .shape-fill {
+    fill: #FFFFFF;
+}
+/*////////////////////////////////quadri////////////////////////////////*/
+
+article{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-content:center;
+	flex-wrap:wrap;
+	
+	
+}
+.card {
+	 padding:4%;
+	 transition: transform 0.2s;
+}
+
+.card:hover{
+	transform: scale(1.2);
+}
+
+img{
+	
+	width:600px;
+	border-radius: 30px;
+	object-fit: contain;
+	padding: 2px;
+	border-radius: 30px;
+	box-shadow: 15px 15px 30px #7cf87e,
+	             -15px -15px 30px rgb(98, 179, 0);
+}
+
+#sub{
+	padding: 4px 20%;
+	 max-width: 100%;
+	 color: white;
+	 font-family: 'Josefin Sans', sans-serif;
+	 font-size: 11em;
+	 text-align:center;
+}
+
+/*///////////////////////////////////footer/////////////*/
+.custom-shape-divider-bottom-1680817259 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1680817259 svg {
+    position: relative;
+    display: block;
+    width: calc(114% + 1.3px);
+    height: 270px;
+}
+
+.custom-shape-divider-bottom-1680817259 .shape-fill {
+    fill: #ffffff;
+}
